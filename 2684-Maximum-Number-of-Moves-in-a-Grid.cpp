@@ -1,7 +1,7 @@
 /**
  * @brief Calculates the maximum number of moves that can be performed by moving across the grid from left to right from a smaller cell to a bigger cell.
  *
- * @param[in] grid: A 2D array.
+ * @param grid: A 2D array.
  * @pre (2 <= m, n <= 1000) and (2 <= m * n <= 10^5) where (m == grid.length) and (n == grid[i].length).
  * @pre 1 <= grid[i][j] <= 10^6.
  * @return The maximum number of moves that can be performed.
