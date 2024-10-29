@@ -1,5 +1,5 @@
 /**
- * @brief Calculates the minimum sum of all numbers along a path in a matrix, starting from the top left and ending at the bottom right.
+ * @brief Calculates the minimum path in a matrix, starting from the top left and ending at the bottom right.
  * 
  * @param grid: A 2D array.
  * @pre (1 <= m, n <= 200) where (m == grid.length) and (n == grid[i].length).
