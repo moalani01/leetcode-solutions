@@ -1,7 +1,7 @@
 /**
  * @brief Calculates the minimum sum of all numbers along a path in a matrix.
  * 
- * @param[in] grid: A 2D array.
+ * @param grid: A 2D array.
  * @pre (1 <= m, n <= 200) where (m == grid.length) and (n == grid[i].length).
  * @pre 0 <= grid[i][j] <= 200.
  * @return The minimum path sum.
