@@ -1,12 +1,12 @@
 /**
- * @brief Calculates the minimum sum of all numbers along a path in a matrix.
+ * @brief Calculates the minimum sum of all numbers along a path in a matrix, starting from the top left and ending at the bottom right.
  * 
  * @param grid: A 2D array.
  * @pre (1 <= m, n <= 200) where (m == grid.length) and (n == grid[i].length).
  * @pre 0 <= grid[i][j] <= 200.
  * @return The minimum path sum.
  *
- * @details Traverse the grid by moving either down or right at any point in time, starting from the top left and ending at the bottom right.
+ * @details Traverse the grid by moving either down or right at any point in time.
  *
  * @see https://leetcode.com/problems/minimum-path-sum
 */
