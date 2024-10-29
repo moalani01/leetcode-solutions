@@ -1,7 +1,7 @@
 /**
  * @brief Calculates the longest square streak in an array.
  *
- * @param[in] nums: An integer array.
+ * @param nums: An integer array.
  * @pre (2 <= nums.length <= 10^5) and (2 <= nums[i] <= 10^5).
  * @return The length of the longest square streak in nums, or -1 if there is no square streak.
  *
