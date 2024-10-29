@@ -8,7 +8,7 @@
  *
  * @details The starting point can be any cell in the first column of the matrix.
  * @details Traverse the grid by moving from a cell (row, col) to any one of the three cells: (row - 1, col + 1), (row, col + 1) and (row + 1, col + 1)
- *    such that the value of the destination cell is be strictly bigger than the value of the source cell.
+ *    such that the value of the destination cell is strictly bigger than the value of the source cell.
  *
  * @see https://leetcode.com/problems/maximum-number-of-moves-in-a-grid
 */
