@@ -25,6 +25,7 @@ private:
      * @return The sum of all values in the array.
     */
     long long getArraySum(const vector<int>& arr);
+
 public:
     /**
      * @brief Calculates the maximum possible sum of heights of a mountain-shaped tower arrangement.
