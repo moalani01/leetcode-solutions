@@ -18,14 +18,6 @@ private:
     */
     void getMountainArray(int maxElementIndex, const vector<int>& heights, vector<int>& heightsAsAMountain);
 
-    /**
-     * @brief Calculates the sum of all values in an array.
-     *
-     * @param[in] arr: An integer array.
-     * @return The sum of all values in the array.
-    */
-    long long getArraySum(const vector<int>& arr);
-
 public:
     /**
      * @brief Calculates the maximum possible sum of heights of a mountain-shaped tower arrangement.
@@ -36,6 +28,14 @@ public:
     */
     long long maximumSumOfHeights(vector<int>& heights);
 };
+
+/**
+* @brief Calculates the sum of all values in an array.
+*
+* @param[in] arr: An integer array.
+* @return The sum of all values in the array.
+*/
+long long getArraySum(const vector<int>& arr);
 
 long long Solution::maximumSumOfHeights(vector<int>& heights) {
     long long maxSum = 0;
@@ -52,14 +52,6 @@ long long Solution::maximumSumOfHeights(vector<int>& heights) {
     return maxSum;
 }
 
-long long Solution::getArraySum(const vector<int>& arr) {
-    long long result = 0;
-    for (int num : arr) {
-        result += num;
-    }
-    return result;
-}
-
 void Solution::getMountainArray(int maxElementIndex, const vector<int>& heights, vector<int>& heightsAsAMountain) {
     heightsAsAMountain[maxElementIndex] = heights[maxElementIndex];
 
@@ -72,4 +64,12 @@ void Solution::getMountainArray(int maxElementIndex, const vector<int>& heights,
     for (int i = maxElementIndex - 1; i >= 0; i--) {
         heightsAsAMountain[i] = (heights[i] > heightsAsAMountain[i + 1]) ? heightsAsAMountain[i + 1] : heights[i];
     }
+}
+
+long long getArraySum(const vector<int>& arr) {
+    long long result = 0;
+    for (int num : arr) {
+        result += num;
+    }
+    return result;
 }
